@@ -67,11 +67,7 @@ a {
 
 #mobilenav {
 	display: none;
-	padding: 10px;
-	float: right;
-	font-size: 1rem;
-	list-style: none;
-	width: 100%;
+	
 	/*position: absolute;*/
 }
 
@@ -92,6 +88,7 @@ h1 {
 	display: flex;
   padding: 0 1.5rem;
 	margin-top: 100px;
+	background-color: #e0e0eb;
 }
 
 .students img {
@@ -102,15 +99,15 @@ h1 {
 
 .students p {
 	float: right
+	background-color: #e0e0eb;
 }
 
 .btn {
 	background-color: darkgray;
 	color: white;
-	text-align: center;
+	text-align: right;
 	display: inline-block;
 	padding: 8px 8px;
-	float: center;
 }
 
 .information {
@@ -129,8 +126,7 @@ h1 {
   flex-direction: column;
   width: 40%;
   padding: 2rem 0;
-  background-color: #e0e0eb;
-}
+ }
 
 /*Section 2 information*/
 
@@ -151,24 +147,27 @@ h1 {
 
 .student-shadows img {
 	float: left;
-	padding: 32px 24px 32px 24px;
 }
 
-.student-shadows h3 {
+.campus img {
+	float: left;
+}
+
+
+.lecture img {
+	float: left;
+}
+
+.textsection {
 	float: right;
 	text-align: center;
 	padding: 32px 30px 32px 20px;
 }
 
-.student-shadows p {
-	float: right;
-}
-
-
 .information {
 	display: flex;
 	padding: 2rem 3.5rem;
-  background-color: rgb(245, 245, 245);
+  	background-color: rgb(245, 245, 245);
 }
 /*Section 3: Start Learning*/
 
@@ -224,19 +223,36 @@ h1 {
 /*media query for mobile*/
 
 @media screen and (max-width: 480px) {
-	#mobilenav li {
+  #mobilenav {
+    display: flex;
+    padding: 10px;
+	justify-content: space-between;
+    align-items:flex-start;
+	font-size: 1rem;
+	list-style: none;
+	width: 100%;
+  }
+  
+ .logo {
+    display: none;
+   visibility: hidden;
+  }
+  
+  .desktop {
+    display:none;
+  }
+  
+/* 	#mobilenav li {
 		width: 100%;
 		display: block;
-		float: none;
-	}
+		
+	} */
 
-	.right {
+	.content {
  		display: flex;
-  		flex-direction: column;
-  		width: 40%;
   		padding: 2rem 0;
   		background-color: #e0e0eb;
-	}
+  	}
 
 	.btn {
 		background-color: darkgray;
@@ -277,6 +293,7 @@ h1 {
 }
 
 }
+
 
 
 
