@@ -184,6 +184,11 @@ h1 {
 	padding: 2rem 3.5rem;
   	background-color: rgb(245, 245, 245);
 }
+
+.mobile-information {
+	display: none;
+}
+
 /*Section 3: Start Learning*/
 
 .learning h2 {
@@ -293,9 +298,11 @@ h1 {
 		
 	} */
 
-.media-container {
-	display: none;
+.students {
+	display: flex;
+	flex-direction:column;
 }
+
 
 	.content {
  		display: flex;
@@ -313,6 +320,10 @@ h1 {
 	}
 
 /* Section 2-Information*/
+
+.reader {
+	display: none;
+}
 	.student-shadows img {
 	float: left;
 	padding: 32px 24px 32px 24px;
@@ -324,9 +335,16 @@ h1 {
 	padding: 32px 30px 32px 20px;
 }
 
-	.student-shadows p {
+.student-shadows p {
 	float: right;
-	}
+}
+
+.mobile-information {
+	display: flex;
+	padding: 2rem 3.5rem;
+  	background-color: rgb(245, 245, 245);
+}
+
 
 	/*Section 3-Start Learning*/
 
