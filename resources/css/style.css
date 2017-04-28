@@ -84,11 +84,12 @@ h1 {
 	font-size: 2rem;
 	font-weight: bold;
 	color: #484848;
+	margin-left: 40px;
 }
 
 .students {
 	display: flex;
-  padding: 0 1.5rem;
+  	padding: 0 1.5rem;
 	margin-top: 100px;
 	background-color: #e0e0eb;
 }
@@ -105,6 +106,7 @@ h1 {
 	font-size: 1rem;
 	color: #484848
 	padding: 32px 30px 32px 20px;
+	margin-left: 60px;
 }
 
 .btn {
@@ -115,6 +117,8 @@ h1 {
 	text-align: center;
 	display: inline-block;
 	padding: 8px 8px;
+	margin-left: 100px;
+	margin-top: 40px;
 	
 }
 
@@ -138,15 +142,18 @@ h1 {
 
 /*Section 2 information*/
 
-.left-reader img {
+.reader img {
 	float: left;
 	padding: 32px 24px 32px 24px;
 }
 
-.left-reader h2 {
+.reader h2 {
 	float: right;
-	text-align: center;
+	text-align: left;
 	padding: 32px 30px 32px 20px;
+	color: #484848;
+	font-size: 2rem;
+	font-weight: bold;
 }
 
 .reader p {
@@ -179,6 +186,14 @@ h1 {
 }
 /*Section 3: Start Learning*/
 
+.learning h2 {
+	text-align: center;
+	padding: 32px 30px 32px 20px;
+	color: #484848;
+	font-size: 2rem;
+	font-weight: bold;
+}
+
 #flex-container-3 {
 	display: flex;
   	/*align-items: flex-start;*/
@@ -199,8 +214,8 @@ h1 {
 
 .flex-item {
 	flex-basis: 33%;
-  margin: 1rem;
-  background-color: white;
+  	margin: 1rem;
+  	background-color: white;
 	
 }
 
@@ -219,11 +234,18 @@ h1 {
 	display: none;
 }
 
-h2 {
-	display: none;
-}
+/*h2 {
+	display: none;}*/
 
 /*Section 4: Thesis Exhibit*/
+
+#flex-container-4 h2 {
+	text-align: center;
+	padding: 32px 30px 32px 20px;
+	color: #484848;
+	font-size: 2rem;
+	font-weight: bold;
+}
 
 #flex-container-4 {
 	display: flex;
@@ -323,6 +345,10 @@ h2 {
     background-color: #e0e0eb;
     color: gray;
  	}
+
+ .learning h2 {
+ 	display: none;
+ }
 
 	
 	
